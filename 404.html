@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>LeGarage</title>
+    <script>
+      (() => {
+        const target = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+        const destination = new URL("/", window.location.origin);
+        destination.searchParams.set("__gh_pages_path", target);
+        window.location.replace(destination.toString());
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

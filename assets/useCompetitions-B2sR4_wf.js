@@ -1,0 +1,1 @@
+import{u as o}from"./useQuery-DvLaxuQM.js";import{s as t}from"./client-B1SpgNaq.js";import{S as s}from"./index-acFA_ELL.js";function u(){return o({queryKey:["competitions"],queryFn:async()=>{const{data:e,error:r}=await t.from("competitions").select("*").order("name",{ascending:!0});if(r)throw r;return e},staleTime:s.hour})}export{u};
