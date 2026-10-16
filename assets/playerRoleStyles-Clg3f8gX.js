@@ -1,0 +1,1 @@
+const A={P:"hsl(45, 90%, 50%)",D:"hsl(140, 60%, 45%)",C:"hsl(210, 70%, 55%)",A:"hsl(0, 70%, 55%)"},P={P:"hsl(var(--foreground))",D:"white",C:"white",A:"white"},l={P:"P",POR:"P",D:"D",DIF:"D",C:"C",CEN:"C",A:"A",ATT:"A"},n=s=>s?l[s]??null:null;export{A as P,P as a,n};
