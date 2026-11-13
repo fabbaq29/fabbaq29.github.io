@@ -1,1 +1,0 @@
-import{u as o}from"./useQuery-CaxJFgbr.js";import{s as t}from"./client-C3fwH_yZ.js";import{S as s}from"./index-DdRqflUc.js";function u(){return o({queryKey:["competitions"],queryFn:async()=>{const{data:e,error:r}=await t.from("competitions").select("*").order("name",{ascending:!0});if(r)throw r;return e},staleTime:s.hour})}export{u};
